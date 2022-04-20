@@ -1,0 +1,129 @@
+.me-1{
+
+font-size: calc(0.27em + 1vw);
+width:calc(6.5rem + 1vw);
+box-shadow: none !important;
+
+border-radius: 10%;
+
+}
+
+.me-2{
+
+font-size: calc(0.2em + 1vw);
+width:calc(5.5em + 1vw);
+  border-radius: 10%;
+
+}
+
+
+body {
+  /*overflow: hidden; /* Hide scrollbars */
+  background-color:transparent;
+  overflow-x: hidden;
+}
+
+.main{
+
+
+height:100% ;
+min-height:100vh;
+width:100% ;
+min-width:100vw;
+}
+
+
+
+
+
+
+
+
+
+.filters-card{
+height:calc(11.5rem + 1vh);
+
+}
+
+.charts-card{
+height:calc(24rem + 1vh);
+
+}
+
+.bar-fig{
+height:calc(19rem + 1vh);
+
+}
+
+
+.map-fig{
+height:calc(21rem + 1vh);
+
+
+}
+
+.mylogo{
+height:calc(6rem + 1vh);
+width:calc(6rem + 1vw);
+}
+
+
+.main-header{
+font-size: calc(0.9rem + 1vw);
+
+}
+
+.sub-text{
+/*font-size: calc(0.35rem + 1vw);*/
+font-size: clamp(1rem, 1.2vw, 4.5rem);
+
+}
+
+
+.table-text{
+/*font-size: calc(0.35rem + 1vw);*/
+font-size: clamp(1rem, 1.2vw, 4.5rem);
+
+}
+
+
+.filters-header{
+font-size: clamp(0.9rem, 1vw, 7rem);
+
+}
+
+.bar-fig-header{
+font-size: calc(0.2rem + 1vw);
+
+}
+
+.filter-label{
+font-size : clamp(0.6rem, 1vw, 2rem);
+vertical-align: middle !important;
+
+
+
+}
+
+.filter-button{
+box-shadow: none !important;
+outline:none !important;
+vertical-align: middle !important;
+display: table-cell;
+}
+
+.out-of-poverty{
+/*margin:auto*/
+}
+
+
+.num{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+
+
