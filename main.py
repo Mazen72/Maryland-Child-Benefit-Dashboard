@@ -658,7 +658,7 @@ def update_map(clicks,age,allowance,location):
 
         map_df['N Reform child poverty rate'] = map_df['Reform child poverty rate'].apply(lambda x: float(x[0:-1]))
 
-        map_fig = px.choropleth(map_df, geojson=districts, locations='District', color='N child overall poverty rate',
+        map_fig = px.choropleth(map_df, geojson=districts, locations='District', color='N Reform child poverty rate',
                              color_continuous_scale="Reds", featureidkey="properties.name",
                                 labels={'Original child poverty rate': '<b>Original child poverty rate<b>',
                                         'District': '<b>District<b>',
