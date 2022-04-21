@@ -6,4 +6,13 @@ its a web dashboard made for charity organization that shows the effect of sendi
 
 
 
+
+
+
+
+
+
+
+
+
 ![alt text](https://github.com/Mazen72/Maryland-Child-Benefit-Dashboard/blob/master/assets/img2.png)
